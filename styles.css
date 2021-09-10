@@ -1,0 +1,241 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.custom-shape-divider-bottom-1631255221 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1631255221 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 170px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1631255221 .shape-fill {
+    fill: #ffffff;
+}
+.content{
+    background-color: #9e3ccf;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+#navbarNav {
+    font-size: 1.15rem;
+}
+
+nav h1{
+    font-size: 1.8rem;
+    color: black;
+    cursor: pointer;
+    font-weight:400;
+}
+.content-body{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.formcontent{
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    padding: 2.9rem;
+    justify-content: center;
+}
+.form{
+    flex: 50%;
+    justify-content: center;
+    padding: 2.9rem;
+    color: black;
+}
+form{
+    background-color: white;
+    min-width: 250px;
+}
+.form-head{
+    color: blue;
+}
+.text{
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+    color: rgb(180, 177, 177);
+}
+.text h1{
+    font-size: 1.5rem;
+    padding-right: 2.5rem;
+}
+.brands{
+    display: flex;
+    justify-content: center;
+}
+.brands ul{
+    list-style: none;
+    width: fit-content;
+    
+}
+.brands ul li{
+    display: inline-block;
+    opacity: 40%;
+    padding: 15px;
+}
+.brands ul li img{
+    width: 200px;
+}
+@media screen and (max-width:1211px) {
+    .brands ul li img{
+        width: 100px;
+    }
+}
+@media screen and (max-width : 700px) {
+    .brands ul li{
+        display: list-item;
+    }
+    
+}
+/* bottom shape divider */
+.custom-shape-divider-bottom-1631291190 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1631291190 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 141px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1631291190 .shape-fill {
+    fill: #e9e9e9;
+}
+.cards{
+    background-color:#e9e9e9 ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.small{
+    font-size: .5rem;
+    color: blue;
+    border-radius: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color:#d8d6d6 ;
+}
+.cards p {
+    font-size: 1.2rem;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.5rem;
+}
+#cards{
+   max-width: 35rem;
+   margin: 2rem;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   box-shadow :5px 5px 5px 5px rgba(0, 0, 0, 0.13);
+}
+#cards i {
+    font-size: 1.5rem;
+}
+@media screen and ( max-width : 1200px) {
+    .cards-container{
+      max-width: 35rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}
+.custom-shape-divider-bottom-1631294949 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1631294949 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 122px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1631294949 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.semi-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10% 10% 10% 10%;
+}
+.btn{
+    margin : 5px;
+}
+.contact:hover{
+    background-color: rgb(212, 208, 208);
+}
+
+.icons i{
+    margin:0.2rem;
+    font-size: 1.4rem;
+background-color: rgb(255, 254, 254);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+    text-decoration: none;
+   ;
+}
+.footer ul li a{
+    color: rgb(184, 179, 179);
+}
+
+@media screen and (max-width:700px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+}
+
+.container-last{
+    display: flex;
+    justify-content: space-evenly;
+}
