@@ -242,3 +242,10 @@ background-color: rgb(255, 254, 254);
 .container-last p {
     padding: 20px;
 }
+.cards-content h2 {
+    font-size: 1.8rem;
+    padding: 8px;
+}
+.cards-content p {
+    padding: 9px;
+}
